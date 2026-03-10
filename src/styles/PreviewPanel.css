@@ -1,0 +1,40 @@
+.preview-panel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.before-after-slider {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 200%;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.before-panel, .after-panel {
+    width: 50%;
+    transition: opacity 0.5s ease;
+}
+
+.download-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
