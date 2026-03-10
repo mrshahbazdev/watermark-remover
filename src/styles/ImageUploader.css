@@ -1,0 +1,24 @@
+.upload-area {
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: border-color 0.3s;
+}
+
+.upload-area.drag-over {
+    border-color: #0056b3;
+}
+
+.preview {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.preview img {
+    max-width: 100%;
+    height: auto;
+}
