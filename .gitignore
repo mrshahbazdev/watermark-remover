@@ -1,0 +1,14 @@
+# Node.js ignore patterns
+
+# Dependency directories
+node_modules/
+
+# Build directories
+build/
+
+# Environment files
+.env
+
+# IDE directories
+.idea/
+.vscode/
